@@ -61,7 +61,7 @@ namespace DevelopexTestApp
 
                 for (int i = 0; i < count - 1; i++)
                 {
-                    level[i].level = level[i + 1];
+                    level[i].level = level[i + 1]; // adding link to right node
                 }
             }
         }
